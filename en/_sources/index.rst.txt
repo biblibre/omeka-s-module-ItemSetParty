@@ -29,5 +29,5 @@ ItemSetsTree also create an item sets hierarchy but based on parent item set id 
    :maxdepth: 2
    :caption: Contents
 
-   features
    configuration
+   features
