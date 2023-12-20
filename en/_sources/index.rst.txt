@@ -23,7 +23,9 @@ More details on the :doc:`configuration` page.
 Similar modules
 ---------------
 
-`ItemSetsTree <https://github.com/biblibre/omeka-s-module-ItemSetsTree>` is another module to view an item sets hierarchy based on configured parent item set.
+ItemSetsTree_. is another module to view an item sets hierarchy based on configured parent item set.
+
+.. _ItemSetsTree: https://github.com/biblibre/omeka-s-module-ItemSetsTree
 
 .. toctree::
    :maxdepth: 2

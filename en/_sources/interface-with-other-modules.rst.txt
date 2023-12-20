@@ -1,4 +1,6 @@
 Interface with other modules
 ============================
 
-`EAD Import <https://github.com/biblibre/omeka-s-module-EADImport>`  is a module which allows to import resources from a XML file ("ead" formatted).
+EADImport_.  is a module which allows to import resources from a XML file ("ead" formatted).
+
+.. _EADIMPORT: https://github.com/biblibre/omeka-s-module-EADImport
