@@ -45,7 +45,11 @@
               <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Features</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Features</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#admin-side">Admin side</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#site-side">Site side</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="interface-with-other-modules.html">Interface with other modules</a></li>
 </ul>
 
@@ -76,12 +80,17 @@
   <section id="features">
 <h1>Features<a class="headerlink" href="#features" title="Permalink to this heading"></a></h1>
 <p>This module creates a resource hierarchy based on one or more item sets defined in its configuration.</p>
-<p>On the admin side, you’ll see a dynamic display, i.e. linked resources will appear when clicked on non-grayed resources (i.e. with ‘hasPart’ relationships).</p>
+<section id="admin-side">
+<h2>Admin side<a class="headerlink" href="#admin-side" title="Permalink to this heading"></a></h2>
+<p>Here you’ll see a dynamic display, i.e. linked resources will appear when clicked on non-grayed resources (i.e. with ‘hasPart’ relationships).</p>
 <img alt="_images/IST_admin-dynamic-view.png" src="_images/IST_admin-dynamic-view.png" />
 <img alt="_images/IST_admin-dynamic-view-action.png" src="_images/IST_admin-dynamic-view-action.png" />
 <p>The special feature on the admin side is the ability to load a sidebar with resource data.</p>
 <img alt="_images/IST_dynamic-view-details.png" src="_images/IST_dynamic-view-details.png" />
-<p>On the site side, there are two possibilities:</p>
+</section>
+<section id="site-side">
+<h2>Site side<a class="headerlink" href="#site-side" title="Permalink to this heading"></a></h2>
+<p>There are two possibilities:</p>
 <ul class="simple">
 <li><p>The first is a display through the navigation, rendered as the dynamic equivalent of the admin view.</p></li>
 </ul>
@@ -91,6 +100,7 @@
 <li><p>The other, via the block, is a static rendering with a predefined depth.</p></li>
 </ul>
 <img alt="_images/IST_site-block-page-view.png" src="_images/IST_site-block-page-view.png" />
+</section>
 </section>
 
 

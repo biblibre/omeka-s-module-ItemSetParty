@@ -46,7 +46,11 @@
               <p class="caption" role="heading"><span class="caption-text">Contenus</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Fonctionnalités</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Fonctionnalités</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#admin-side">Côté admin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#site-side">Côté site</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="interface-with-other-modules.html">Interaction avec d’autres modules</a></li>
 </ul>
 
@@ -77,11 +81,16 @@
   <section id="features">
 <h1>Fonctionnalités<a class="headerlink" href="#features" title="Lien permanent vers cette rubrique"></a></h1>
 <p>Ce module crée une hierarchie de ressources basée sur une ou plusieurs collections définie(s) dans sa configuration.</p>
+<section id="admin-side">
+<h2>Côté admin<a class="headerlink" href="#admin-side" title="Lien permanent vers cette rubrique"></a></h2>
 <p>Sur la partie Admin, vous aurez une vue dynamique, en effet les ressources liées apparaîtront lorsque vous cliquez sur les ressources non grisées (qui ont des relations <cite>a une partie</cite>).</p>
 <img alt="_images/IST_admin-dynamic-view.png" src="_images/IST_admin-dynamic-view.png" />
 <img alt="_images/IST_admin-dynamic-view-action.png" src="_images/IST_admin-dynamic-view-action.png" />
 <p>Du côté Admin, vous avez une barre latérale pour visualiser les données de la ressource.</p>
 <img alt="_images/IST_dynamic-view-details.png" src="_images/IST_dynamic-view-details.png" />
+</section>
+<section id="site-side">
+<h2>Côté site<a class="headerlink" href="#site-side" title="Lien permanent vers cette rubrique"></a></h2>
 <p>Côté site, il y a deux possibilités:</p>
 <ul class="simple">
 <li><p>La première est une vue au travers de la navigation, le rendu dynamique est équivalent à ce que vous retrouverez côté Admin (sans la barre latérale).</p></li>
@@ -92,6 +101,7 @@
 <li><p>L’autre, avec le bloc de page, est une vue plus statique puisque la profondeur s’appuie sur un paramètre défini.</p></li>
 </ul>
 <img alt="_images/IST_site-block-page-view.png" src="_images/IST_site-block-page-view.png" />
+</section>
 </section>
 
 
