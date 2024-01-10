@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ItemSetParty \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 14:11+0000\n"
+"POT-Creation-Date: 2024-01-10 10:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -28,32 +28,51 @@ msgstr "Fonctionnalités"
 msgid ""
 "This module creates a resource hierarchy based on one or more item sets "
 "defined in its configuration."
-msgstr "Ce module crée une hierarchie de ressources basée sur une ou plusieurs collections définie(s) dans sa configuration."
+msgstr ""
+"Ce module crée une hierarchie de ressources basée sur une ou plusieurs "
+"collections définie(s) dans sa configuration."
 
-#: ../../features.rst:6
+#: ../../features.rst:7
+msgid "Admin side"
+msgstr "Côté admin"
+
+#: ../../features.rst:9
 msgid ""
-"On the admin side, you'll see a dynamic display, i.e. linked resources "
-"will appear when clicked on non-grayed resources (i.e. with 'hasPart' "
-"relationships)."
-msgstr "Sur la partie Admin, vous aurez une vue dynamique, en effet les ressources liées apparaîtront lorsque vous cliquez sur les ressources non grisées (qui ont des relations `a une partie`)."
+"Here you'll see a dynamic display, i.e. linked resources will appear when"
+" clicked on non-grayed resources (i.e. with 'hasPart' relationships)."
+msgstr ""
+"Sur la partie Admin, vous aurez une vue dynamique, en effet les "
+"ressources liées apparaîtront lorsque vous cliquez sur les ressources non"
+" grisées (qui ont des relations `a une partie`)."
 
-#: ../../features.rst:12
+#: ../../features.rst:15
 msgid ""
 "The special feature on the admin side is the ability to load a sidebar "
 "with resource data."
-msgstr "Du côté Admin, vous avez une barre latérale pour visualiser les données de la ressource."
+msgstr ""
+"Du côté Admin, vous avez une barre latérale pour visualiser les données "
+"de la ressource."
 
-#: ../../features.rst:16
-msgid "On the site side, there are two possibilities:"
+#: ../../features.rst:20
+msgid "Site side"
+msgstr "Côté site"
+
+#: ../../features.rst:22
+msgid "There are two possibilities:"
 msgstr "Côté site, il y a deux possibilités:"
 
-#: ../../features.rst:18
+#: ../../features.rst:24
 msgid ""
 "The first is a display through the navigation, rendered as the dynamic "
 "equivalent of the admin view."
-msgstr "La première est une vue au travers de la navigation, le rendu dynamique est équivalent à ce que vous retrouverez côté Admin (sans la barre latérale)."
+msgstr ""
+"La première est une vue au travers de la navigation, le rendu dynamique "
+"est équivalent à ce que vous retrouverez côté Admin (sans la barre "
+"latérale)."
 
-#: ../../features.rst:23
+#: ../../features.rst:29
 msgid "The other, via the block, is a static rendering with a predefined depth."
-msgstr "L'autre, avec le bloc de page, est une vue plus statique puisque la profondeur s'appuie sur un paramètre défini."
+msgstr ""
+"L'autre, avec le bloc de page, est une vue plus statique puisque la "
+"profondeur s'appuie sur un paramètre défini."
 

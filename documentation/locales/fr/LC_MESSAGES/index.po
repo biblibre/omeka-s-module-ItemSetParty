@@ -37,11 +37,11 @@ msgid ""
 "This module allows you to view a hierarchy of resources based on the item"
 " sets defined in its parameters. Resources are linked using the "
 "dcterms:hasPart property."
-msgstr "Ce module vous permet de voir une hiérarchie de ressources basée sur des collections définies dans sa configuration. Les ressources sont liées en utilisant la propriété `dcterms:hasPart` "
+msgstr "Ce module vous permet de voir une hiérarchie de ressources basée sur des collections définies dans sa configuration. Les ressources sont liées en utilisant la propriété `dcterms:hasPart`. "
 
 #: ../../index.rst:10
 msgid "No dependencies needed."
-msgstr "Aucune dépendance nécessaire"
+msgstr "Aucune dépendance nécessaire."
 
 #: ../../index.rst:13
 msgid "Where is the configuration"
@@ -81,5 +81,5 @@ msgstr "Modules similaires"
 msgid ""
 "ItemSetsTree_ is another module to view an item sets hierarchy based on "
 "configured parent item set."
-msgstr "ItemSetsTree_ est un autre module afin de voir une hiérarchie de collection basée sur le parent de la collection défini."
+msgstr "ItemSetsTree_ est un autre module permettant de visualiser une hiérarchie de collection basée sur le parent de la collection défini."
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ItemSetParty \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 14:11+0000\n"
+"POT-Creation-Date: 2024-01-10 10:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -26,7 +26,19 @@ msgstr "Interaction avec d'autres modules"
 
 #: ../../interface-with-other-modules.rst:4
 msgid ""
-"EADImport_  is a module which allows to import resources from a XML file "
+"EADImport_ is a module which allows to import resources from a XML file "
 "(\"ead\" formatted)."
-msgstr "EADImport_ est un module permettant d'importer des ressources depuis un fichier XML (format \"ead\")."
+msgstr ""
+"EADImport_ est un module permettant d'importer des ressources depuis un "
+"fichier XML (format \"ead\")."
+
+#: ../../interface-with-other-modules.rst:6
+msgid "When an import is performed, an item set is created with this new items."
+msgstr "Quand un import est effectué, une collection est créee avec ces nouveaux contenus."
+
+#: ../../interface-with-other-modules.rst:8
+msgid ""
+"Simply add this item set to the ItemSetParty configuration, and then "
+"check the import by browsing the tree structure."
+msgstr "Ajouter simplement la collection à la configuration d'ItemSetParty, et ensuite vérifier l'import en parcourant la hiérarchie."
 
