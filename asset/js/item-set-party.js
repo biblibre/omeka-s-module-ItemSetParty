@@ -32,6 +32,7 @@
                         initEvent();
                     });
                 }
+                element.addClass('parent_active');
             });
 
             $('.resource_details_view').on('click', function (e) {
