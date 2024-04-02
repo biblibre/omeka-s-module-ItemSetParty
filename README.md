@@ -8,8 +8,10 @@ The complete documentation of ItemSetParty can be found [here](https://biblibre.
 ## Rationale
 
 This plugin offers a new visualization of Omeka S resources:
-	- archival visualization similar to the EAD tree structure, which combines several types of resources (item sets, items and media) in a single hierarchy, enabling the visualization of the different levels
-	- visualization of periodicals organized in parent-child records
+- archival visualization similar to the EAD tree structure, which combines
+  several types of resources (item sets, items and media) in a single
+  hierarchy, enabling the visualization of the different levels
+- visualization of periodicals organized in parent-child records
 
 ## Requirements
 
