@@ -1,5 +1,3 @@
-<?php $this->headScript()->appendFile($this->assetUrl('css/item-set-party.css', 'ItemSetParty'));?>
-
 <ul>
     <?php if (isset($childRepresentation->values()["dcterms:hasPart"])): ?>
         <?php $hasPartValues = $childRepresentation->values()["dcterms:hasPart"]['values']; ?>
