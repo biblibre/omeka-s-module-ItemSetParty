@@ -2,6 +2,7 @@
     <?php if (isset($childRepresentation->values()["dcterms:hasPart"])): ?>
         <?php $hasPartValues = $childRepresentation->values()["dcterms:hasPart"]['values']; ?>
         <?php if ($hasPartValues && $depth > 1) : ?>
+            <?php $hasPartValues = $this->itemSetPartyBlockSort($childRepresentation->values()["dcterms:hasPart"]['values'], $sortPropertySetting); ?>
             <ul>
             <?php foreach($hasPartValues as $hasPartValue) : ?>
                 <?php $hasPartResourceRepresentation = $hasPartValue->valueResource(); ?>
@@ -11,6 +12,7 @@
                     <?php echo $this->partial('item-set-party/block-layout/item-set-party-child', [
                         'childRepresentation' => $hasPartResourceRepresentation,
                         'depth' => $depth - 1,
+                        'sortPropertySetting' => $sortPropertySetting
                     ]); ?>
                 </li>
             <?php endforeach; ?>

@@ -30,9 +30,10 @@ class IndexController extends AbstractActionController
     public function indexAction()
     {
         $idsFromModuleConfig = $this->settings()->get('itemsetparty_archival_item_sets');
+        $sortingProperty = $this->settings()->get('itemsetparty_archival_sorting_property');
         if (isset($idsFromModuleConfig)) {
             $view = new ViewModel();
-            $resources = $this->itemSetParty()->getRelations($idsFromModuleConfig, 'item_sets');
+            $resources = $this->itemSetParty()->getRelations($idsFromModuleConfig, 'item_sets', $sortingProperty);
             if (empty($resources)) {
                 $itemSets = [];
                 foreach ($idsFromModuleConfig as $id) {
@@ -65,7 +66,8 @@ class IndexController extends AbstractActionController
         $params = $this->params()->fromRoute();
         $resourceId = $params['id'];
         $resourceType = $params['type'];
-        $resourceRelations = $this->itemSetParty()->getRelations($resourceId, $resourceType);
+        $sortingProperty = $this->settings()->get('itemsetparty_archival_sorting_property');
+        $resourceRelations = $this->itemSetParty()->getRelations($resourceId, $resourceType, $sortingProperty);
 
         foreach ($resourceRelations as $relation) {
             $view = new ViewModel;

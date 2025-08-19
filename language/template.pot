@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-22 15:54+0000\n"
+"POT-Creation-Date: 2025-10-01 14:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "see configuration"
 msgstr ""
 
-#: view/item-set-party/block-layout/item-set-party.phtml:22
+#: view/item-set-party/block-layout/item-set-party.phtml:23
 msgid "None hasPart resource"
 msgstr ""
 
@@ -37,24 +37,32 @@ msgid ""
 "module"
 msgstr ""
 
-#: src/Form/ConfigForm.php:18
-msgid "Select archival item sets"
+#: src/Site/BlockLayout/ItemSetParty.php:39
+msgid "Block title"
 msgstr ""
 
-#: src/Form/ConfigForm.php:21
-msgid "Archival item sets"
-msgstr ""
-
-#: src/Controller/Admin/IndexController.php:44
-#: src/Controller/Site/IndexController.php:44
+#: src/Controller/Admin/IndexController.php:45
+#: src/Controller/Site/IndexController.php:45
 msgid "None relation found for this item set"
 msgstr ""
 
-#: src/Controller/Admin/IndexController.php:56
-#: src/Controller/Site/IndexController.php:56
+#: src/Controller/Admin/IndexController.php:57
+#: src/Controller/Site/IndexController.php:57
 msgid "None archival item set configured on module"
 msgstr ""
 
-#: src/Site/BlockLayout/ItemSetParty.php:39
-msgid "Block title"
+#: src/Form/ConfigForm.php:20
+msgid "Select archival item sets"
+msgstr ""
+
+#: src/Form/ConfigForm.php:23
+msgid "Archival item sets"
+msgstr ""
+
+#: src/Form/ConfigForm.php:39
+msgid "Select property to sort each item set"
+msgstr ""
+
+#: src/Form/ConfigForm.php:40
+msgid "By default, sort will be the same as usual (by resource id)"
 msgstr ""

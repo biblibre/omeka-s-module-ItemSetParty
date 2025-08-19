@@ -65,13 +65,14 @@ class ItemSetParty extends AbstractBlockLayout
     public function render(PhpRenderer $view, SitePageBlockRepresentation $block)
     {
         $idsFromSettings = $view->setting('itemsetparty_archival_item_sets');
+        $sortPropertySetting = $view->setting('itemsetparty_archival_sorting_property');
+
         if (isset($idsFromSettings)) {
             foreach ($idsFromSettings as $id) {
                 $resourcesRepresentations[$id] = $this->getResourceRepresentation($view, $id, 'item_sets');
             }
         }
-        $data = $block->data() + ['resourcesFromConfig' => $resourcesRepresentations];
-
+        $data = $block->data() + ['resourcesFromConfig' => $resourcesRepresentations, 'sortPropertySetting' => $sortPropertySetting];
         return $view->partial('common/block-layout/item-set-party', $data);
     }
 

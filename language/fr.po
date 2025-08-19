@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-22 15:54+0000\n"
+"POT-Creation-Date: 2025-10-01 14:58+0200\n"
 "PO-Revision-Date: 2023-11-10 10:29+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -27,9 +27,9 @@ msgstr ""
 msgid "see configuration"
 msgstr "voir la configuration"
 
-#: view/item-set-party/block-layout/item-set-party.phtml:22
+#: view/item-set-party/block-layout/item-set-party.phtml:23
 msgid "None hasPart resource"
-msgstr ""
+msgstr "Aucune ressource liée à la propriété \"a une partie\""
 
 #: view/item-set-party/site/index/index.phtml:15
 msgid ""
@@ -39,24 +39,32 @@ msgstr ""
 "Aucune relation \"a une partie\" n'existe pour la collection sélectionnée, "
 "voir le formulaire de configuration du module"
 
-#: src/Form/ConfigForm.php:18
-msgid "Select archival item sets"
-msgstr "Sélectionner les collections de type archivistique"
-
-#: src/Form/ConfigForm.php:21
-msgid "Archival item sets"
-msgstr "Collections archivistiques"
-
-#: src/Controller/Admin/IndexController.php:44
-#: src/Controller/Site/IndexController.php:44
-msgid "None relation found for this item set"
-msgstr "Aucune relation pour cette collection"
-
-#: src/Controller/Admin/IndexController.php:56
-#: src/Controller/Site/IndexController.php:56
-msgid "None archival item set configured on module"
-msgstr "Aucune collection de type archivistique définie dans le module"
-
 #: src/Site/BlockLayout/ItemSetParty.php:39
 msgid "Block title"
 msgstr "Titre du bloc"
+
+#: src/Controller/Admin/IndexController.php:45
+#: src/Controller/Site/IndexController.php:45
+msgid "None relation found for this item set"
+msgstr "Aucune relation pour cette collection"
+
+#: src/Controller/Admin/IndexController.php:57
+#: src/Controller/Site/IndexController.php:57
+msgid "None archival item set configured on module"
+msgstr "Aucune collection de type archivistique définie dans le module"
+
+#: src/Form/ConfigForm.php:20
+msgid "Select archival item sets"
+msgstr "Sélectionner les collections de type archivistique"
+
+#: src/Form/ConfigForm.php:23
+msgid "Archival item sets"
+msgstr "Collections archivistiques"
+
+#: src/Form/ConfigForm.php:39
+msgid "Select property to sort each item set"
+msgstr "Sélectionner la propriété utilisée pour trier chaque collection"
+
+#: src/Form/ConfigForm.php:40
+msgid "By default, sort will be the same as usual (by resource id)"
+msgstr "Par défaut, le tri sera le même qu'habituellement (par id de ressource)"

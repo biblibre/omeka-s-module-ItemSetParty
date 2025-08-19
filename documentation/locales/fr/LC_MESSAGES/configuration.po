@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ItemSetParty \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 14:11+0000\n"
+"POT-Creation-Date: 2025-08-19 16:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -29,26 +29,32 @@ msgid "Module configuration"
 msgstr "Configuration du module"
 
 #: ../../configuration.rst:9
+#, fuzzy
 msgid ""
 "Here you define the item sets to be used in the module and the "
-"corresponding views."
-msgstr "Ici vous définissez les collections utilisées par le module."
+"corresponding views. You can select a property that will be used to sort "
+"childs resources (alphabetical asc) if need it."
+msgstr ""
+"Ici vous définissez les collections utilisées par le module. Vous pouvez "
+"sélectionner une propriété afin de trier les éléments enfants si besoin (ordre alphabétique croissant)."
 
-#: ../../configuration.rst:12
+#: ../../configuration.rst:13
 msgid "Navigation page"
 msgstr "Page de navigation"
 
-#: ../../configuration.rst:13
+#: ../../configuration.rst:14
 msgid "Defining navigation to the dynamic hierarchy"
 msgstr "Définition de la navigation vers la hiérarchie dynamique"
 
-#: ../../configuration.rst:18
+#: ../../configuration.rst:19
 msgid "Block page"
 msgstr "Bloc de page"
 
-#: ../../configuration.rst:20
+#: ../../configuration.rst:21
 msgid ""
 "By adding an `ItemSetParty` block, you can define a static hierarchy "
 "based on depth parameter"
-msgstr "En ajoutant un bloc `ItemSetParty`, vous pouvez définir une profondeur pour la hiérarchie"
+msgstr ""
+"En ajoutant un bloc `ItemSetParty`, vous pouvez définir une profondeur "
+"pour la hiérarchie"
 

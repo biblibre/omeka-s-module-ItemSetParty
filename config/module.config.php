@@ -19,6 +19,7 @@ return [
             'itemSetPartyTree' => View\Helper\ItemSetPartyTree::class,
             'itemSetPartyResource' => View\Helper\ItemSetPartyResource::class,
             'itemSetPartySidebarResource' => View\Helper\ItemSetPartySidebarResource::class,
+            'itemSetPartyBlockSort' => View\Helper\ItemSetPartyBlockSort::class,
         ],
     ],
     'navigation' => [

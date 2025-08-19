@@ -2,7 +2,7 @@
         <li class="o-icon-item-sets" data-resource-id="<?php echo $representation->id(); ?>">
             <?php echo $this->hyperlink($representation->displayTitle(), $representation->url()); ?>
             <?php if (isset($representation->values()["dcterms:hasPart"])): ?>
-                <?php $hasPartValues = $representation->values()["dcterms:hasPart"]['values']; ?>
+                <?php $hasPartValues = $this->itemSetPartyBlockSort($representation->values()["dcterms:hasPart"]['values'], $sortPropertySetting); ?>
                 <?php if ($hasPartValues) : ?>
                     <ul>
                     <?php foreach($hasPartValues as $hasPartValue) : ?>
@@ -13,6 +13,7 @@
                             <?php echo $this->partial('item-set-party/block-layout/item-set-party-child', [
                                 'childRepresentation' => $hasPartResourceRepresentation,
                                 'depth' => $depth,
+                                'sortPropertySetting' => $sortPropertySetting
                             ]); ?>
                         </li>
                     <?php endforeach; ?>

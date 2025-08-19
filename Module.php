@@ -30,11 +30,13 @@ class Module extends AbstractModule
     {
         $settings = $this->getServiceLocator()->get('Omeka\Settings');
         $archival_item_sets = $settings->get('itemsetparty_archival_item_sets', '[]');
+        $archival_sorting_property = $settings->get('itemsetparty_archival_sorting_property', '');
 
         $form = $this->getServiceLocator()->get('FormElementManager')->get(ConfigForm::class);
         $form->init();
         $form->setData([
             'archival_item_sets' => $archival_item_sets,
+            'archival_sorting_property' => $archival_sorting_property,
         ]);
 
         return $renderer->formCollection($form, false);
@@ -52,6 +54,7 @@ class Module extends AbstractModule
         }
         $formData = $form->getData();
         $settings->set('itemsetparty_archival_item_sets', $formData['archival_item_sets']);
+        $settings->set('itemsetparty_archival_sorting_property', $formData['archival_sorting_property']);
 
         return true;
     }

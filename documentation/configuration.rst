@@ -7,6 +7,7 @@ Module configuration
 .. image:: images/IST_config-module.png
 
 Here you define the item sets to be used in the module and the corresponding views.
+You can select a property that will be used to sort childs resources (alphabetical asc) if need it.
 
 Navigation page
 ---------------
