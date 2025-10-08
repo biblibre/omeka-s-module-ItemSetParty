@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.3.0] - 2025-08-19
 
+- Fix usort function to sort correctly alphanumeric values:
+e.g. if you have "1FOO 1", "1FOO 2" and "1FOO 11", "1FOO 11" will be the last element now
+
+## [0.3.0] - 2025-08-19
+
 - Add property select configuration option to sort childs resources.
 - New ItemSetPartyBlockSort with sort function to display correctly in block layout (according to property configuration setting)
 
