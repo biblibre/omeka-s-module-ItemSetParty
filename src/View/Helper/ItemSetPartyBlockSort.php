@@ -21,11 +21,11 @@ class ItemSetPartyBlockSort extends AbstractHelper
 
                 $length = max(count($matchesA[0]), count($matchesB[0]));
                 for ($i = 0; $i < $length; $i++) {
-                    $partA = isset($matchesA[0][$i]) ? $matchesA[0][$i] : '';
-                    $partB = isset($matchesB[0][$i]) ? $matchesB[0][$i] : '';
+                    $partA = $matchesA[0][$i] ?? '';
+                    $partB = $matchesB[0][$i] ?? '';
 
                     if (is_numeric($partA) && is_numeric($partB)) {
-                        $numCompare = (int)$partA <=> (int)$partB;
+                        $numCompare = (int) $partA <=> (int) $partB;
                         if ($numCompare !== 0) {
                             return $numCompare;
                         }
